@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor{
+    flex: 1;
+    min-width: 300px;
+    justify-content: center;
+}
+.encabezado{
+    flex: 2;
+    background-image: url('banner2.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 80vh;
+    width: 1000px;
+}
+.fondo{
+    flex: 3;
+    background-color: #0b6730;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: black;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#RenoBailando{
+    border: 10px solid black;
+    margin-left: 300px;
+    width: 400px;
+    height: 400px;
+}
+#gato{
+    border: 10px solid black;
+    float: center;
+    margin-left: 300px;
+    width:400px;
+    height: 400px;
+}
+#pollo{
+    border: 10px solid black;
+    margin-left: 300px;
+    float: center;
+    width:400px;
+    height: 400px;
+}
+#borde1{
+    flex-direction: column;
+    margin-left: 300px;
+    float: right;
+    width:400px;
+    height: 400px;
+}
+#borde2{
+    flex-direction: column;
+    margin-left: 300px;
+    float: left;
+    width:400px;
+    height: 400px;
+}
